@@ -25,7 +25,7 @@ form{
     max-width: 500px;
     min-width: 300px;
     width: 60vw;
-
+    padding-bottom: 2em;
 }
 fieldset{
     border: none;
@@ -34,4 +34,24 @@ fieldset{
 }
 fieldset:last-of-type{
     border-bottom: none;
+}
+input, textarea, select{
+    width: 100%;
+    margin: 10px 0 0;
+}
+.inline{
+    width: unset;
+    margin: 0 0.5em 0;
+    vertical-align: middle;
+}
+input, textarea{
+    /* background-color: rgb(0, 225, 255); */
+    border: 1px solid rgb(106, 0, 255);
+    color: darkgreen;
+}
+input[type="submit"]{
+    
+    display: block;
+    width: 60%;
+    margin: 0 auto;
 }
