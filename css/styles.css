@@ -7,6 +7,6 @@ body {
 }
 label {
     display: inline-block;
-    background-color: blue;
+    /* background-color: blue; */
     margin:0.5rem 0;
 }
